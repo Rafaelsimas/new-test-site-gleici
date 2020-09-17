@@ -125,7 +125,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     width: 200px;
 }
 #footer .redes-sociais{
-    width: 200px;
+    width: 80px;
 }
 
 /* Desktop */
@@ -138,17 +138,18 @@ input[type="text"], input[type="tel"], input[type="email"] {
        height: 100vh;
    }
 
-   #header .header-img-gleice{
+   #header .header-img-gleice {
     width: 687px;
     float: left;
-    margin-top: -131px;
+    margin-top: -291px;
     margin-left: 79px;
- }
+}
 
- #header h1 {
+#header h1 {
     font-family: 'Dancing Script', cursive;
     float: right;
     width: 840px;
+    margin-top: 93px;
 }
  #header p {
     font-family: 'Dancing Script', cursive;
@@ -179,15 +180,23 @@ input[type="text"], input[type="tel"], input[type="email"] {
     width: 840px;
     margin-left: 271px;
     margin-top: 85px;
-    font-size: 58px;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 69px;
 }
+
+
 #sobre p {
     font-family: candara;
     float: left;
     width: 840px;
     margin-left: 271px;
     font-size: 26px;
-    line-height: 40px;
+    line-height: 64px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 300;
 }
 
 #sobre .sobre-img-gleice {
@@ -202,8 +211,12 @@ input[type="text"], input[type="tel"], input[type="email"] {
     margin-top: 237px;
 }
 
-input[type="text"], input[type="tel"], input[type="email"] {
-    width: 573px;
+/* margin-bottom: 98px */
+
+input[type="text"],
+ input[type="tel"],
+  input[type="email"] {
+    width: 578px;
     padding: 13px 0px;
     border-radius: 8px;
     border: none;
@@ -225,9 +238,16 @@ input[type="text"], input[type="tel"], input[type="email"] {
     color: #fff;
 }
 
+#contato h1{
+
+}
+
 /* footer */
 #footer .redes-sociais {
-    width: 86px;
+    width: 37px;
 }
+
+
+
   
 }
