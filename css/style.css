@@ -1,0 +1,233 @@
+/* Responsivo */
+
+.logo-top{
+    width: 100px;
+}
+
+#header{
+    text-align: center;
+}
+
+#header h1{
+    font-family: 'Dancing Script', cursive;
+}
+#header p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+#header .header-img-gleice{
+   width: 200px;
+}
+
+#header .btn-header{
+    border: none;
+    border: 1px solid orange;
+    padding: 13px 60px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: orange;
+    color: #fff;
+}
+
+#header .btn-header:hover{
+    background: brown;
+    color: #fff;
+    border: 1px solid orange;
+}
+
+/* sobre */
+#sobre{
+    text-align: center;
+}
+
+#sobre h1{
+    font-family: 'Dancing Script', cursive;
+}
+#sobre p{
+    font-family:'manrope', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#sobre .sobre-img-gleice{
+    width: 200px;
+ }
+
+ #sobre .btn-sobre{
+    border: none;
+    border: 1px solid orange;
+    padding: 13px 60px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: orange;
+    color: #fff;
+}
+
+#sobre .btn-sobre:hover{
+    background: brown;
+    color: #fff;
+    border: 1px solid orange;
+}
+
+ /* contato */
+
+ #contato{
+    text-align: center;
+    background-color: orange;
+    border-radius: 40px;
+}
+
+#contato h1{
+    font-family: 'Dancing Script', cursive;
+}
+#contato p{
+    font-family:'manrope', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 306px;
+    padding: 13px 0px;
+    border-radius: 8px;
+    border: none;
+}
+
+.t-area{
+    width: 306px;
+    border: none;
+    border-radius: 8px;
+}
+
+#contato .btn-form{
+    border: none;
+    border: 1px solid black;
+    padding: 13px 90px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: orange;
+    color: #fff;
+}
+
+#contato .btn-form:hover{
+    background: brown;
+    color: #fff;
+    border: 1px solid orange;
+}
+
+#footer{
+    text-align: center;
+    /* background-color: orange; */
+    border-radius: 40px;
+}
+
+#footer .footer-logo{
+    width: 200px;
+}
+#footer .redes-sociais{
+    width: 200px;
+}
+
+/* Desktop */
+@media (min-width:768px){
+   .navbar-nav{
+    margin-left: 59.6rem;
+   }
+
+   #header{
+       height: 100vh;
+   }
+
+   #header .header-img-gleice{
+    width: 687px;
+    float: left;
+    margin-top: -131px;
+    margin-left: 79px;
+ }
+
+ #header h1 {
+    font-family: 'Dancing Script', cursive;
+    float: right;
+    width: 840px;
+}
+ #header p {
+    font-family: 'Dancing Script', cursive;
+    float: right;
+    width: 840px;
+}
+
+#header .btn-header {
+    float: left;
+    border: none;
+    border: 1px solid orange;
+    padding: 13px 60px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: orange;
+    color: #fff;
+    margin-left: 43px;
+}
+/* sobre */
+
+#sobre{
+    height: 100vh;
+}
+
+#sobre h1 {
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    width: 840px;
+    margin-left: 271px;
+    margin-top: 85px;
+    font-size: 58px;
+}
+#sobre p {
+    font-family: candara;
+    float: left;
+    width: 840px;
+    margin-left: 271px;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+#sobre .sobre-img-gleice {
+    width: 274px;
+    float: left;
+    margin-left: -599px;
+    margin-top: 79px;
+}
+
+#contato {
+    height: 150vh;
+    margin-top: 237px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 573px;
+    padding: 13px 0px;
+    border-radius: 8px;
+    border: none;
+}
+
+.t-area{
+    width: 573px;
+    border: none;
+    border-radius: 8px;
+}
+
+#contato .btn-form{
+    border: none;
+    border: 1px solid black;
+    padding: 13px 90px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: orange;
+    color: #fff;
+}
+
+/* footer */
+#footer .redes-sociais {
+    width: 86px;
+}
+  
+}
