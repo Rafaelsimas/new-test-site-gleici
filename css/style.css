@@ -4,15 +4,16 @@
     width: 100px;
 }
 
+
 #header{
     text-align: center;
 }
 
 #header h1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 #header p{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
     font-size: 18px;
 }
 #header .header-img-gleice{
@@ -41,7 +42,8 @@
 }
 
 #sobre h1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 38px;
 }
 #sobre p{
     font-family:'manrope', sans-serif;
@@ -78,7 +80,7 @@
 }
 
 #contato h1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 #contato p{
     font-family:'manrope', sans-serif;
@@ -115,6 +117,61 @@ input[type="text"], input[type="tel"], input[type="email"] {
     border: 1px solid orange;
 }
 
+#blog .gleici-blog{
+    width: 84%;
+}
+
+#blog .cards {
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    
+}
+
+#blog h3{
+    font-size: 19px;
+}
+
+
+  /* 
+  -------------------------------------
+  -------------------------------------
+  temas
+  ------------------------------------
+  ------------------------------------
+  */
+
+  #culpa {
+   
+    padding: -14px;
+    display: inline;
+    /* margin-left: -125px; */
+    /* width: 178px; */
+}
+
+#culpa .container{
+    background: orange;
+    display: inline-block;
+
+
+}
+#culpa h1{
+    text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+}
+
+
+
+/* 
+-------------------------------------
+-------------------------------------
+temas
+------------------------------------
+------------------------------------
+*/
+
 #footer{
     text-align: center;
     /* background-color: orange; */
@@ -130,6 +187,15 @@ input[type="text"], input[type="tel"], input[type="email"] {
 
 /* Desktop */
 @media (min-width:768px){
+
+    #menu-navegation {
+        position: fixed;
+        z-index: 9;
+        background: #fff;
+        padding: -13px;
+        width: 100%;
+    }
+
    .navbar-nav{
     margin-left: 59.6rem;
    }
@@ -144,17 +210,18 @@ input[type="text"], input[type="tel"], input[type="email"] {
     margin-top: -291px;
     margin-left: 79px;
 }
-
 #header h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
     float: right;
     width: 840px;
-    margin-top: 93px;
+    margin-top: 244px;
+    font-size: 56px;
 }
  #header p {
-    font-family: 'Dancing Script', cursive;
+   font-family: 'Great Vibes', cursive;
     float: right;
     width: 840px;
+    font-size: 42px;
 }
 
 #header .btn-header {
@@ -167,6 +234,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     background-color: orange;
     color: #fff;
     margin-left: 43px;
+    font-size: 19px;
 }
 /* sobre */
 
@@ -175,13 +243,13 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 #sobre h1 {
-    font-family: 'Dancing Script', cursive;
+   font-family: 'Great Vibes', cursive;
     float: left;
     width: 840px;
     margin-left: 271px;
     margin-top: 85px;
     font-size: 46px;
-    font-weight: bold;
+  
     margin-bottom: 69px;
 }
 
@@ -191,7 +259,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     float: left;
     width: 840px;
     margin-left: 271px;
-    font-size: 26px;
+    font-size: 21px;
     line-height: 64px;
     justify-content: center;
     align-items: center;
@@ -203,7 +271,12 @@ input[type="text"], input[type="tel"], input[type="email"] {
     width: 274px;
     float: left;
     margin-left: -599px;
-    margin-top: 79px;
+    margin-top: 142px;
+}
+
+#sobre .btn-sobre{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #contato {
@@ -241,6 +314,71 @@ input[type="text"],
 #contato h1{
 
 }
+
+/* blog */
+
+#blog{
+    height: 101vh;
+}
+
+#blog .gleici-blog{
+    width: 453px;
+}
+
+#blog .cards {
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin-left: 175px;
+}
+
+#blog .card-white {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+  }
+
+  /* 
+  -------------------------------------
+  -------------------------------------
+  temas
+  ------------------------------------
+  ------------------------------------
+  */
+
+  #culpa {
+   
+      padding: 119px;
+  }
+
+  #culpa .container {
+    background: orange;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    padding: 52px;
+    width: 1405px;
+    margin-bottom: 147px;
+}
+#culpa h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 81px;
+}
+
+
+
+ /* 
+  -------------------------------------
+  -------------------------------------
+  temas
+  ------------------------------------
+  ------------------------------------
+  */
 
 /* footer */
 #footer .redes-sociais {
