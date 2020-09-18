@@ -201,7 +201,7 @@ temas
 }
 
 /* Desktop */
-@media (min-width:768px){
+@media (min-width:968px){
 
     #menu-navegation {
         position: fixed;
