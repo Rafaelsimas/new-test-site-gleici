@@ -39,6 +39,8 @@
 /* sobre */
 #sobre{
     text-align: center;
+    background: orange;
+    height: 472px;
 }
 
 #sobre h1{
@@ -81,6 +83,7 @@
 
 #contato h1{
     font-family: 'Great Vibes', cursive;
+    padding-top: 27px;
 }
 #contato p{
     font-family:'manrope', sans-serif;
@@ -117,6 +120,12 @@ input[type="text"], input[type="tel"], input[type="email"] {
     border: 1px solid orange;
 }
 
+#contato ::placeholder{
+    text-align: center;
+}
+
+/* blog */
+
 #blog .gleici-blog{
     width: 84%;
 }
@@ -132,6 +141,12 @@ input[type="text"], input[type="tel"], input[type="email"] {
 #blog h3{
     font-size: 19px;
 }
+#blog h1{
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+
+
 
 
   /* 
@@ -239,7 +254,8 @@ temas
 /* sobre */
 
 #sobre{
-    height: 100vh;
+    height: 110vh;
+    background: orange;
 }
 
 #sobre h1 {
@@ -247,7 +263,7 @@ temas
     float: left;
     width: 840px;
     margin-left: 271px;
-    margin-top: 85px;
+    margin-top: 170px;
     font-size: 46px;
   
     margin-bottom: 69px;
@@ -271,17 +287,23 @@ temas
     width: 274px;
     float: left;
     margin-left: -599px;
-    margin-top: 142px;
+    margin-top: 198px;
 }
 
-#sobre .btn-sobre{
-    margin-top: 20px;
-    margin-bottom: 20px;
+#sobre .btn-sobre {
+    margin-top: 112px;
+    margin-bottom: -35px;
+    background: brown;
+    border: 1px solid brown;
 }
 
 #contato {
     height: 150vh;
-    margin-top: 237px;
+    margin-top: 267px;
+}
+
+#contato h1 {
+    margin-top: 160px;
 }
 
 /* margin-bottom: 98px */
@@ -312,7 +334,11 @@ input[type="text"],
 }
 
 #contato h1{
+    margin-top: 134px;
+}
 
+#contato ::placeholder{
+    text-align: center;
 }
 
 /* blog */
@@ -341,6 +367,8 @@ input[type="text"],
     margin: 8px;
     flex-grow: 1;
   }
+
+ 
 
   /* 
   -------------------------------------
@@ -389,3 +417,4 @@ input[type="text"],
 
   
 }
+
